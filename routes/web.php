@@ -12,7 +12,7 @@ Route::get('/', function () {
 });
 
 Route::get('/AboutMe', [AboutMeController::class,'show']);
-Route::get('/Skils', [SkillsController::class,'show']);
+Route::get('/Skills', [SkillsController::class,'show']);
 Route::get('/Hobbies', [HobbiesController::class,'show']);
 
 ?>
